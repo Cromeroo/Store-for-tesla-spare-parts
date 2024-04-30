@@ -1,0 +1,71 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0rem;
+  text-align: center;
+  color: #48c8ff;
+}
+.link-hover-effect {
+  text-decoration: none;
+  color: inherit; /* Color inicial */
+}
+
+.link-hover-effect:hover {
+  color: black; /* Color al pasar el cursor */
+}
+
+.tabla-contenedor {
+  margin: 0 auto;
+  width: 90%;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+body {
+  background-color: #f0f0f0; 
+}
+th {
+  background-color: #f2f2f2;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 10px 20px;
+  margin: 4px 0;
+  border: none;
+  cursor: pointer;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
